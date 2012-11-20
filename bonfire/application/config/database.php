@@ -41,11 +41,16 @@
 $active_group = 'default';
 $active_record = TRUE;
 
-$db['default']['hostname'] = "mysql14.000webhost.com";
+/*$db['default']['hostname'] = "mysql14.000webhost.com";
 $db['default']['username'] = "a1128749_habit";
 $db['default']['password'] = "vr14021980";
-$db['default']['database'] = "a1128749_habit";
-$db['default']['dbdriver'] = "mysql";
+$db['default']['database'] = "a1128749_habit";*/
+
+$db['default']['hostname'] = "localhost";
+$db['default']['username'] = "root";
+$db['default']['password'] = "";
+$db['default']['database'] = "bonfirev06_dev";
+
 $db['default']['dbprefix'] = 'bf_';
 $db['default']['pconnect'] = TRUE;
 $db['default']['db_debug'] = TRUE;

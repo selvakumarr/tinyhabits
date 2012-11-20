@@ -21,9 +21,11 @@
 			<div class="control-group">
 				<label class="control-label" for="modal-login-password"><?php echo lang('bf_password') ?></label>
 				<div class="controls">
-					<input type="password" name="password" id="modal-login-password" class="input-xlarge" placeholder="Password" value="">
+					<input type="password" name="password" id="modal-login-password" class="input-xlarge" placeholder="Password" >
 				</div>
 			</div>
+			
+			
 
 			<?php if ($this->settings_lib->item('auth.allow_remember')) : ?>
 			<div class="control-group">

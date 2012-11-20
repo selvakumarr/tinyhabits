@@ -20,7 +20,7 @@ $config['modules_locations'] = array(
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://selvakumar.webege.com/tinyhabits/';
+$config['base_url']	= 'http://localhost/cibonfiretinyhabits/';
 
 /*
 |--------------------------------------------------------------------------

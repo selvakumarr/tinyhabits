@@ -44,6 +44,13 @@
 									<?php echo lang('bf_user_settings') ?>
 								</a>
 							</li>
+									<li class="divider"></li>
+							<li>
+								<a href="<?php echo site_url('pi');?>">
+									Raspberry PI 
+								</a>
+							</li>
+							
 
 							<li class="divider"></li>
 							<li>
