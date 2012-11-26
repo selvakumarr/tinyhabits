@@ -12,6 +12,31 @@
 			<a href="<?php site_url('/'); ?>" class="brand">
 				<?php e($this->settings_lib->item('site.title')); ?>
 			</a>
+		
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+               <li>
+								<a class="" href="<?php echo site_url('habit');?>">
+									Small Habit
+								</a>
+							</li>
+               <li>
+								<a class="" href="<?php echo site_url('pomodoro');?>">
+									Small Task
+								</a>
+							</li>
+            	
+             <li>
+								<a class="" href="<?php echo site_url('pi');?>">
+									Small Computer
+								</a>
+							</li>
+             
+            </ul>
+          </div>
+			
+			
+			
 
 			<!-- Everything you want hidden at 940px or less, place within here -->
 			<div class="nav-collapse collapse">
